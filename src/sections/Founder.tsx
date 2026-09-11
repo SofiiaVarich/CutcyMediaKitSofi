@@ -1,0 +1,3 @@
+import { EditorialHeading } from '@/src/components/EditorialHeading';
+import { SectionImage } from '@/src/components/SectionImage';
+export function Founder() { return <section className="section split"><div><EditorialHeading eyebrow="The creator" title="Built with curiosity and care." intro="Konnektoren is an independent educational platform created to help people find confidence in German, one useful connection at a time." /></div><SectionImage src="/images/konnektoren_overrealistic_cute_assets/kitten_pink_teacup.png" alt="Konnektoren creative character" caption="A warm, playful visual language for serious learning." /></section>; }

@@ -1,0 +1,2 @@
+import { EditorialHeading } from '@/src/components/EditorialHeading';
+export function GlobalCommunity() { return <section className="section split"><div><EditorialHeading eyebrow="Community" title="From Berlin to everywhere." intro="Konnektoren brings together language learners and curious people from different backgrounds through accessible, global content." /></div><div className="community-map" aria-label="Global community visual">🌍<span>Learn together</span></div></section>; }
