@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react';
+import { assetPath } from '@/src/lib/assetPath';
 
 const assets = [
   ['/images/cute_media_kit_assets_no bg/banana_cat.png', 'Banana cat'],
@@ -18,7 +19,7 @@ const assets = [
 export function AssetGallery() {
   return <div className="asset-gallery" aria-label="Konnektoren visual asset gallery">
     {assets.map(([src, alt], index) => <div className="asset-card" style={{ '--delay': `${index * 90}ms` } as CSSProperties} key={src}>
-      <img src={src} alt={alt} loading="lazy" />
+      <img src={assetPath(src)} alt={alt} loading="lazy" />
     </div>)}
   </div>;
 }
