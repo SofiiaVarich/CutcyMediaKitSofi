@@ -3,6 +3,8 @@ export const mediaKit = {
   tagline: 'Learn German. Discover ideas. Connect with the world.',
   blogUrl: 'https://www.konnektoren.blog',
   youtubeUrl: 'https://www.youtube.com/@KonnektorenHelp',
+    youtubeVideosUrl: 'https://www.youtube.com/@KonnektorenHelp/videos',
+    youtubeSubscribeUrl: 'https://www.youtube.com/@KonnektorenHelp?sub_confirmation=1',
   stats: [
     { value: 'A0–C1', label: 'German learning levels' },
     { value: '100%', label: 'Practical, useful content' },

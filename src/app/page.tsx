@@ -14,4 +14,5 @@ import { Collaboration } from '@/src/sections/Collaboration';
 import { Impact } from '@/src/sections/Impact';
 import { Contact } from '@/src/sections/Contact';
 import { Challenges } from '@/src/sections/Challenges';
-export default function Page() { return <><ScrollProgress /><main><Cover /><VisitorCounter /><Intro /><Founder /><Audience /><Numbers /><ContentPillars /><Challenges /><Creator /><BrandStory /><GlobalCommunity /><Collaboration /><Impact /><Contact /></main><Footer /></>; }
+import { YouTube } from '@/src/sections/YouTube';
+export default function Page() { return <><ScrollProgress /><main><Cover /><VisitorCounter /><Intro /><Founder /><Audience /><Numbers /><ContentPillars /><Challenges /><YouTube /><Creator /><BrandStory /><GlobalCommunity /><Collaboration /><Impact /><Contact /></main><Footer /></>; }
