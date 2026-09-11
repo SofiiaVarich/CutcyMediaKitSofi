@@ -7,7 +7,7 @@ import { YouTubeLiveData } from '@/src/components/YouTubeLiveData';
 const visuals = [
   ['/images/konnektoren_button_assets_30/05_subscribe.png', 'Subscribe to KonnektorenHelp'],
   ['/images/konnektoren_button_assets_30/07_watch_video.png', 'Watch Konnektoren videos'],
-  ['/images/konnektoren_overrealistic_assets/coffee_you_can_do_this.png', 'Keep learning'],
+  ['/images/cute_media_kit_assets_no bg/capybara_orange_hat.png', 'Keep learning'],
 ];
 
 export function YouTube() {
