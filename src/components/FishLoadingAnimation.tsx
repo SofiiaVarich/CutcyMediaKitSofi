@@ -1,11 +1,9 @@
 import type { CSSProperties } from 'react';
 
-const frames = ['00', '05', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '98', '99', '100'];
+const frames = ['banana_cat', 'broccoli_cat', 'capybara_orange_hat', 'cherries_pink_bow', 'chick_heart_sunglasses', 'croissant_puppy', 'dachshund_sunglasses', 'disco_ball_pink_bow', 'doodle_heart_outline', 'duck_pink_bonnet', 'frog_crown_bow', 'goldfish_green_sneakers', 'goldfish_headphones', 'goose_pink_bow', 'hedgehog_orange_bow', 'kitten_pink_teacup', 'orange_puppy_fruit', 'panda_pink_hood', 'penguin_pink_scarf', 'pink_axolotl'];
 
 export function FishLoadingAnimation() {
   return <div className="fish-loader" aria-label="Animated Konnektoren fish">
-    {frames.map((frame, index) => <img key={frame} src={`/images/fish_loading_frames/${frame}_percent.png`} style={{ '--frame-index': index } as CSSProperties} alt="" aria-hidden="true" />)}
-        <img src="/images/fish_loading_frames/final_jump.png" style={{ '--frame-index': 23 } as CSSProperties} alt="" aria-hidden="true" />
-        <img src="/images/fish_loading_frames/ready_love_you_sofi.png" style={{ '--frame-index': 24 } as CSSProperties} alt="" aria-hidden="true" />
+    {frames.map((frame, index) => <img key={frame} src={`/images/cute_media_kit_assets_no bg/${frame}.png`} style={{ '--frame-index': index } as CSSProperties} alt="" aria-hidden="true" />)}
   </div>;
 }

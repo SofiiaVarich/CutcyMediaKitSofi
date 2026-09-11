@@ -1,18 +1,18 @@
 import type { CSSProperties } from 'react';
 
 const assets = [
-  ['/images/konnektoren_overrealistic_assets/banana_sunglasses.png', 'Banana with sunglasses'],
-  ['/images/konnektoren_overrealistic_cute_assets/banana_cat.png', 'Banana cat'],
-  ['/images/konnektoren_media_kit_objects/butterfly_glitter.png', 'Glitter butterfly'],
-  ['/images/konnektoren_media_kit_objects/heart_crystal.png', 'Crystal heart'],
-  ['/images/konnektoren_overrealistic_assets/coffee_you_can_do_this.png', 'Coffee encouragement'],
-  ['/images/konnektoren_overrealistic_cute_assets/pink_mochi_seal.png', 'Pink mochi seal'],
-  ['/images/konnektoren_media_kit_objects/ribbon_heart.png', 'Ribbon heart'],
-  ['/images/konnektoren_overrealistic_cute_assets/penguin_pink_scarf.png', 'Penguin with pink scarf'],
-  ['/images/konnektoren_overrealistic_assets/disco_ball_pink_bow.png', 'Disco ball'],
-  ['/images/konnektoren_media_kit_objects/sparkles_large.png', 'Large sparkles'],
-  ['/images/konnektoren_overrealistic_cute_assets/strawberry_kitten.png', 'Strawberry kitten'],
-  ['/images/konnektoren_media_kit_objects/cloud_heart.png', 'Cloud heart'],
+  ['/images/cute_media_kit_assets_no bg/banana_cat.png', 'Banana cat'],
+  ['/images/cute_media_kit_assets_no bg/broccoli_cat.png', 'Broccoli cat'],
+  ['/images/cute_media_kit_assets_no bg/capybara_orange_hat.png', 'Capybara with orange hat'],
+  ['/images/cute_media_kit_assets_no bg/cherries_pink_bow.png', 'Cherries with pink bow'],
+  ['/images/cute_media_kit_assets_no bg/chick_heart_sunglasses.png', 'Chick with heart sunglasses'],
+  ['/images/cute_media_kit_assets_no bg/croissant_puppy.png', 'Croissant puppy'],
+  ['/images/cute_media_kit_assets_no bg/dachshund_sunglasses.png', 'Dachshund with sunglasses'],
+  ['/images/cute_media_kit_assets_no bg/duck_pink_bonnet.png', 'Duck with pink bonnet'],
+  ['/images/cute_media_kit_assets_no bg/frog_crown_bow.png', 'Frog with crown and bow'],
+  ['/images/cute_media_kit_assets_no bg/goldfish_headphones.png', 'Goldfish with headphones'],
+  ['/images/cute_media_kit_assets_no bg/kitten_pink_teacup.png', 'Kitten with pink teacup'],
+  ['/images/cute_media_kit_assets_no bg/penguin_pink_scarf.png', 'Penguin with pink scarf'],
 ] as const;
 
 export function AssetGallery() {
